@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">조사 보고서 검토의 네 가지 사용 화면</title>
+  <desc id="desc">가상의 제품 시안 v1. 검토 대기 목록, 근거 확인, 검토 완료, 출처 실패 복구를 보여 준다. 정적 그림이며 실제 동작은 검증하지 않았다.</desc>
+  <defs>
+    <style>
+      text { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; fill: #263348; }
+      .title { font-size: 34px; font-weight: 700; }
+      .section { font-size: 20px; font-weight: 700; }
+      .heading { font-size: 27px; font-weight: 700; }
+      .body { font-size: 20px; }
+      .small { font-size: 17px; }
+      .muted { fill: #647187; }
+      .white { fill: #fff; }
+      .blue { fill: #2458b5; }
+      .green { fill: #22745b; }
+      .amber { fill: #8d5715; }
+      .bold { font-weight: 700; }
+      .line { stroke: #dce2ea; stroke-width: 1.5; }
+    </style>
+  </defs>
+  <rect width="1600" height="1600" fill="#f1f4f8"/>
+  <text x="48" y="63" class="title">조사 보고서 검토 · 사용 화면 예제</text>
+  <text x="48" y="99" class="body muted">화면을 보며 정보·행동·예외를 구체화합니다. 데이터와 제품 규칙은 가정입니다.</text>
+  <rect x="1394" y="35" width="158" height="38" rx="19" fill="#e0e7f2"/>
+  <text x="1473" y="61" text-anchor="middle" class="small bold">v1 · 정적 시안</text>
+
+  <text x="48" y="148" class="section">SCR-01 · 시작할 일을 고른다</text>
+  <rect x="48" y="168" width="732" height="450" rx="16" fill="#fff" stroke="#d4dce7"/>
+  <path d="M48 230H780" class="line"/>
+  <text x="76" y="207" class="body bold">리서치 노트</text>
+  <text x="680" y="207" class="small muted">보고서</text>
+  <text x="80" y="278" class="heading">검토 대기</text>
+  <text x="80" y="312" class="body muted">초안을 읽고, 필요한 근거를 확인해 주세요.</text>
+  <rect x="80" y="344" width="668" height="156" rx="12" fill="#f8faff" stroke="#dce5f4"/>
+  <text x="104" y="382" class="body bold">이번 주 사용자 조사 요약</text>
+  <text x="104" y="415" class="small muted">예시 보고서 · 항목 3개</text>
+  <rect x="104" y="440" width="108" height="32" rx="16" fill="#fff0d6"/>
+  <text x="158" y="462" text-anchor="middle" class="small amber">미확인 1건</text>
+  <rect x="590" y="433" width="132" height="44" rx="8" fill="#2458b5"/>
+  <text x="656" y="462" text-anchor="middle" class="body white bold">초안 검토</text>
+  <text x="80" y="547" class="small muted">아직 완료하지 않은 초안이 이곳에 표시됩니다.</text>
+  <text x="80" y="581" class="small blue">다음: 근거 확인 화면</text>
+
+  <text x="820" y="148" class="section">SCR-02 · 출처를 보고 확인 여부를 결정한다</text>
+  <rect x="820" y="168" width="732" height="450" rx="16" fill="#fff" stroke="#d4dce7"/>
+  <path d="M820 230H1552" class="line"/>
+  <text x="848" y="207" class="body bold">리서치 노트</text>
+  <text x="1418" y="207" class="small muted">초안 검토</text>
+  <text x="852" y="275" class="heading">근거 확인</text>
+  <rect x="1400" y="247" width="120" height="34" rx="17" fill="#fff0d6"/>
+  <text x="1460" y="270" text-anchor="middle" class="small amber">미확인 1건</text>
+  <text x="852" y="313" class="body bold">1. 처음 사용하는 용어가 어려워요</text>
+  <text x="852" y="346" class="body muted">예시: 참여자가 안내 문구의 의미를 다시 물었습니다.</text>
+  <text x="852" y="378" class="small muted">근거 자료: 가상 인터뷰 메모 01</text>
+  <rect x="852" y="399" width="136" height="42" rx="8" fill="#edf3ff" stroke="#d1def5"/>
+  <text x="920" y="427" text-anchor="middle" class="body blue bold">출처 보기</text>
+  <rect x="1022" y="408" width="23" height="23" rx="4" fill="#fff" stroke="#8593a9" stroke-width="2"/>
+  <text x="1058" y="427" class="body">확인 표시</text>
+  <text x="852" y="474" class="small muted">출처를 열기만 하면 확인 상태가 바뀌지 않습니다.</text>
+  <path d="M852 500H1520" class="line"/>
+  <text x="852" y="538" class="small amber">미확인 항목을 모두 확인해 주세요.</text>
+  <rect x="1306" y="519" width="214" height="48" rx="8" fill="#e5e9ef"/>
+  <text x="1413" y="550" text-anchor="middle" class="body muted bold">검토 완료로 저장</text>
+  <text x="852" y="588" class="small blue">확인 표시 후 미확인 0건이면 완료할 수 있습니다.</text>
+
+  <text x="48" y="673" class="section">SCR-03 · 완료 결과를 확인한다</text>
+  <rect x="48" y="693" width="732" height="450" rx="16" fill="#fff" stroke="#d4dce7"/>
+  <path d="M48 755H780" class="line"/>
+  <text x="76" y="732" class="body bold">리서치 노트</text>
+  <text x="670" y="732" class="small muted">검토 결과</text>
+  <circle cx="414" cy="826" r="34" fill="#e5f4ec"/>
+  <path d="M398 826L409 837L431 814" fill="none" stroke="#22745b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="414" y="900" text-anchor="middle" class="heading">검토 완료</text>
+  <text x="414" y="940" text-anchor="middle" class="body muted">확인한 내용이 저장됐어요.</text>
+  <text x="414" y="977" text-anchor="middle" class="small green">이번 주 사용자 조사 요약 · 미확인 0건</text>
+  <rect x="332" y="1010" width="164" height="48" rx="8" fill="#2458b5"/>
+  <text x="414" y="1041" text-anchor="middle" class="body white bold">목록으로</text>
+  <text x="414" y="1102" text-anchor="middle" class="small muted">완료 여부를 화면에서 확인할 수 있습니다.</text>
+
+  <text x="820" y="673" class="section">SCR-04 · 실패해도 이어갈 수 있다</text>
+  <rect x="820" y="693" width="732" height="450" rx="16" fill="#fff" stroke="#d4dce7"/>
+  <path d="M820 755H1552" class="line"/>
+  <text x="848" y="732" class="body bold">리서치 노트</text>
+  <text x="1418" y="732" class="small muted">근거 확인</text>
+  <circle cx="1186" cy="826" r="34" fill="#fff0d6"/>
+  <text x="1186" y="838" text-anchor="middle" style="font-size:38px;font-weight:700;fill:#8d5715">!</text>
+  <text x="1186" y="900" text-anchor="middle" class="heading">출처를 열 수 없어요</text>
+  <text x="1186" y="940" text-anchor="middle" class="body muted">초안과 기존 확인 기록은 그대로 남아 있어요.</text>
+  <text x="1186" y="975" text-anchor="middle" class="body muted">다시 시도하거나 나중에 이어서 검토해 주세요.</text>
+  <rect x="1008" y="1010" width="164" height="48" rx="8" fill="#fff" stroke="#c5cedc"/>
+  <text x="1090" y="1041" text-anchor="middle" class="body bold">나중에 검토</text>
+  <rect x="1196" y="1010" width="164" height="48" rx="8" fill="#2458b5"/>
+  <text x="1278" y="1041" text-anchor="middle" class="body white bold">다시 시도</text>
+  <text x="1186" y="1102" text-anchor="middle" class="small muted">실패한 항목은 미확인 상태로 유지됩니다.</text>
+
+  <text x="48" y="1187" class="small muted">다음 검토: 확인 판단의 기준 · 완료 버튼 활성 상태 · 저장 실패 · 빈 목록 · 실제 사용자 이해</text>
+  <path d="M48 1230H1552" class="line"/>
+  <text x="48" y="1280" class="heading">화면을 그린 뒤, 더 정확하게 물을 수 있는 것</text>
+  <rect x="48" y="1310" width="732" height="170" rx="14" fill="#e8eef8"/>
+  <text x="76" y="1352" class="section blue">기획자의 판단</text>
+  <text x="76" y="1388" class="body">‘열어 보기’와 ‘확인’은 언제 같은 결과가 될까요?</text>
+  <text x="76" y="1422" class="body">미확인 항목이 남아도 완료할 수 있어야 할까요?</text>
+  <text x="76" y="1455" class="small muted">원하는 자동화 수준과 완료의 의미를 결정합니다.</text>
+  <rect x="820" y="1310" width="732" height="170" rx="14" fill="#e8eef8"/>
+  <text x="848" y="1352" class="section blue">사용자의 경험</text>
+  <text x="848" y="1388" class="body">다음 행동과 완료할 수 없는 이유가 보이나요?</text>
+  <text x="848" y="1422" class="body">실패한 뒤 어떤 데이터가 남는지 알 수 있나요?</text>
+  <text x="848" y="1455" class="small muted">시안과 가이드를 같은 과업으로 함께 검토합니다.</text>
+  <text x="48" y="1533" class="small muted">ProductPlanning · 화면 원본 → 동작 명세 → 사용자 가이드 → 검토 기록</text>
+  <text x="48" y="1565" class="small muted">가상의 기능 예제입니다. 실제 사용자 조사·클릭 동작·서비스 연동은 아직 검증하지 않았습니다.</text>
+</svg>
