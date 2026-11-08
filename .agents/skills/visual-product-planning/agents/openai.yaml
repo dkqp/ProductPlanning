@@ -1,0 +1,4 @@
+interface:
+  display_name: "화면으로 구체화하는 제품 기획"
+  short_description: "인터뷰와 실제 사용 화면을 연결해 기획서·사용자 가이드·구현 기준을 함께 발전시킵니다"
+  default_prompt: "$visual-product-planning으로 내 아이디어를 인터뷰하고 실제 사용 화면과 사용자 가이드를 함께 구체화해 주세요."
