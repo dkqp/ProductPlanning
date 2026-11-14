@@ -10,7 +10,9 @@
 2. [기획 인터뷰](.agents/skills/visual-product-planning/references/interview.md)로 의도와 판단 기준을 구체화한다.
 3. [화면 예제](examples/report-review/README.md)를 참고해 첫 사용자 과업을 그림으로 만든다.
 4. 화면을 보며 [기획서](.agents/skills/visual-product-planning/assets/templates/planning-brief.md), [화면 명세](.agents/skills/visual-product-planning/assets/templates/screen-spec.md), [사용자 가이드](.agents/skills/visual-product-planning/assets/templates/user-guide.md)를 함께 고친다.
-5. [검토와 구현 전환 양식](.agents/skills/visual-product-planning/assets/templates/review-and-handoff.md)으로 다음 행동을 정한다.
+5. [화면 품질 지침](.agents/skills/visual-product-planning/references/screen-quality.md)으로 과업·오류·접근성을 평가한다.
+6. [사용자 테스트 지침](.agents/skills/visual-product-planning/references/user-testing.md)으로 중립적인 과업을 준비하고 실제 관찰을 기록한다. 세션이 없으면 계획과 미검증으로 남긴다.
+7. [검토와 구현 전환 양식](.agents/skills/visual-product-planning/assets/templates/review-and-handoff.md)으로 다음 행동을 정한다.
 
 ## 화면으로 보는 예제
 
@@ -25,11 +27,15 @@
 | 목적 | 읽을 자료 |
 |---|---|
 | 원저자와 실무자의 방법론 | [기획 방법론과 출처 조사](docs/research/2026-11-08-methods.md) |
+| 핵심 원문을 운영 기준으로 옮긴 근거 | [심층 조사와 반영 대응표](docs/research/2026-11-14-operational-criteria.md) |
 | 공개 스킬과 화면 제작 도구 비교 | [도구 선택과 도입 판단](docs/tools.md) |
 | 의도와 암묵적인 판단을 알아내는 질문 | [인터뷰 지침](.agents/skills/visual-product-planning/references/interview.md) |
 | 화면 제작과 검토 | [화면 검토 지침](.agents/skills/visual-product-planning/references/screen-loop.md) |
+| 과업·상태·접근성의 품질 평가 | [평가 지침](.agents/skills/visual-product-planning/references/screen-quality.md) · [기록 양식](.agents/skills/visual-product-planning/assets/templates/screen-quality-review.md) |
+| 실제 사용자 검증 | [테스트 지침](.agents/skills/visual-product-planning/references/user-testing.md) · [계획과 기록 양식](.agents/skills/visual-product-planning/assets/templates/usability-test.md) |
 | 합의한 원칙과 적용 제안 | [기획 원칙과 결정](docs/decisions.md) |
 | 확인한 범위와 남은 검증 | [검증 기록](docs/validation.md) |
+| 보강한 기준의 적용 사례 | [화면 자체 평가](examples/report-review/quality-review.md) · [테스트 계획](examples/report-review/usability-plan.md) · [모의 사례 점검](docs/evaluation-cases.md) |
 
 ## 코딩 에이전트에서 사용하기
 
@@ -43,4 +49,4 @@
 
 이 저장소는 기획 방법, 스킬, 양식과 설명용 화면을 관리한다. 실제 제품 구현은 각 제품 작업공간에서 진행한다. 참고 자료는 요약과 직접 출처로 남기며 외부 스킬 전문이나 유료 도서를 복제하지 않는다.
 
-초기 자료 확인일: **2026-11-08**. 도구별 기능과 명령은 사용할 때 현재 문서를 다시 확인한다.
+초기 자료 확인일: **2026-11-08**, 심층 보강: **2026-11-14**. 일부 도서 전체·실제 사용자 세션·외부 도구 성능은 미검증이다. 도구별 기능과 명령은 사용할 때 현재 문서를 다시 확인한다.
