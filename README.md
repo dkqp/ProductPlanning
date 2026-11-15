@@ -37,6 +37,10 @@
 | 확인한 범위와 남은 검증 | [검증 기록](docs/validation.md) |
 | 보강한 기준의 적용 사례 | [화면 자체 평가](examples/report-review/quality-review.md) · [테스트 계획](examples/report-review/usability-plan.md) · [모의 사례 점검](docs/evaluation-cases.md) |
 
+## ChatGPT 플러그인으로 사용하기
+
+**ProductPlanning** 플러그인은 인터뷰·화면 평가·사용자 테스트 지침과 6개 양식을 포함한다. 설치한 뒤 대화의 `@` 메뉴에서 선택해 사용한다. [설치·사용·업데이트 안내](docs/chatgpt-plugin.md)를 참고한다.
+
 ## 코딩 에이전트에서 사용하기
 
 [visual-product-planning](.agents/skills/visual-product-planning/SKILL.md)은 인터뷰 → 화면 → 기획·가이드 → 검토를 연결하는 저장소 내 스킬이다. 이 저장소를 지원하는 에이전트에서 열고 다음처럼 요청한다.

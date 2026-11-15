@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "product-planning",
+  "version": "0.1.0",
+  "description": "인터뷰와 실제 사용 화면을 반복하며 제품 기획서, UI/UX 시안, 사용자 가이드와 검증 기준을 함께 구체화합니다.",
+  "author": { "name": "dkqp" },
+  "homepage": "https://github.com/dkqp/ProductPlanning",
+  "repository": "https://github.com/dkqp/ProductPlanning",
+  "keywords": ["product-planning", "user-experience", "prototyping", "usability-testing"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ProductPlanning",
+        "shortDescription": "화면을 보며 발전시키는 제품 기획",
+        "longDescription": "기획자의 의도를 인터뷰하고 실제 사용 화면을 그려 보며 기획서·화면 명세·사용자 가이드를 함께 발전시킵니다. 과업·오류 복구·접근성 관점의 화면 평가와 중립적인 사용자 테스트 계획·기록을 지원합니다. 실제 관찰, 제안과 미검증 가설을 구분합니다.",
+        "developerName": "dkqp",
+        "category": "Productivity",
+        "capabilities": [],
+        "websiteURL": "https://github.com/dkqp/ProductPlanning",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "내 아이디어를 제품으로 구체화해 주세요. 먼저 의도를 인터뷰하고 첫 사용 화면을 보여 주세요. 화면을 보며 기획서와 사용자 가이드를 함께 발전시켜 주세요.",
+          "이 화면을 사용자의 과업·오류 복구·접근성 관점에서 평가하고, 확인한 문제와 미확인 항목을 구분해 주세요.",
+          "이 제품의 실제 사용자 테스트를 준비해 주세요. 연구 질문과 중립적인 과업, 완료·도움·중단 기준을 정해 주세요."
+        ]
+      }
+    }
+  }
+}
